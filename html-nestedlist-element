@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>A Nested List</h2>
+<p>Lists can be nested (list inside list):</p>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <ul>
+      <li>Strong tea</li>
+      </ul>
+      <li>Green tea</li>
+      <ul>
+      <li>Lemonade</li>
+      </ul>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+
+</body>
+</html>

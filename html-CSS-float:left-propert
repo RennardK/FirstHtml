@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+	list-style-type:none;
+    padding: 3px;
+    margin: 0;
+    background-color:mediumseagreen;
+    display:block;
+    overflow:hidden;
+    }
+li {
+	float:left;
+    padding:16px;
+    }
+li:hover{
+	background-color: rgba(160,160,160,0.67)}   
+</style>
+</head>
+
+<body>
+<h2>float:left to display a list horizontally</h2>
+<ul>
+	<a href=html><li id=#html>HTML</li></a>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>Bootstrap</li>
+    <li>PHP</li>
+</ul><br>
+<h2>HTML</h2>
+</body>
+</html>

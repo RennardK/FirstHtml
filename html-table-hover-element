@@ -12,6 +12,7 @@ th, td {
   text-align: center;
   border-bottom: 1px solid #DDD;
 }
+
 thead:hover {background-color: #ef2b89;}
 tbody:hover {background-color: #D6EEEE;}
 tfoot:hover {background-color: #3467EF;}

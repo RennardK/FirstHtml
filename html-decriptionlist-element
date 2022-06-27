@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>A Description List</h2>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+  <dt>HTML</dt>
+  <dd>-Hyper Text Markup Language</dd>
+  <! define the name using the &ltdt&gt and the value using the &ltdd&gt tag-->
+</dl>
+
+</body>
+</html>

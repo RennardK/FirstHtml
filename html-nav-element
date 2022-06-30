@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+nav {
+	background-color:#ccc;
+    padding: 10px;
+    display: block;
+    }
+</style>
+</head>
+
+<body>
+<nav class= navy>
+  <a href="/html/">HTML</a>
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav>
+
+</body>
+</html>

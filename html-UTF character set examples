@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<p>I will display A B C</p> 
+<p>I will display &#65; &#66; &#67;</p>
+<p>&#3128151;</p>
+<p>&#128151;</p>
+<p>&#128525;</p>
+<p>&#128512;</p>
+
+<!-- The characters A, B, and C, are displayed by the numbers 65, 66, and 67.
+To let the browser understand that you are displaying a character, you must start the entity number with &# and end it with ; (semicolon). -->
+
+</body>
+</html>

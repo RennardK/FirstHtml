@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<h1 id="kik">Sized Emojis</h1>
+
+<p style="font-size:29px">
+&#128512; &#128516; &#128525; &#128151;
+</p>
+<p class="smile" style="font-size:29px">&#128525;</p>
+<button onclick="changeToLove()">Click to make Love</button>
+
+<script>
+function changeToLove (){
+	document.getElementsByClassName("smile").value = "Love"}
+</script>
+</body>
+</html>

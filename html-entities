@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>HTML Entity Name Example</h1>
+
+<p>The ampersand (and) sign: &amp;</p><!-- & -->
+<p>The greater than sign: &gt;</p><!-- > -->
+<p>The less than sign: &lt;</p><!-- " -->
+<p>The double quotation mark: &quot;</p><!-- ' -->
+<p>The single quotation mark: &apos;</p><!-- ¢ -->
+<p>The cent sign: &cent;</p><!-- &-->
+<p>The pound sign: &pound;</p><!-- £ -->
+<p>The yen sign: &yen;</p><!-- ¥ -->
+<p>The euro sign: &euro;</p><!-- € -->
+<p>The copyright sign: &copy;</p><!-- © -->
+<p>The registered trademark sign: &reg;</p><!-- ® -->
+
+<h2>Html Entity Number Example</h2>
+<p>The ampersand (and) sign: &amp;</p><!-- &#160 -->
+<p>The greater than sign: &gt;</p><!-- 62 -->
+<p>The less than sign: &lt;</p><!-- 60 -->
+<p>The double quotation mark: &quot;</p><!-- 34 -->
+<p>The single quotation mark: &apos;</p><!-- 39 -->
+<p>The cent sign: &cent;</p><!-- 162 -->
+<p>The pound sign: &pound;</p><!-- 163 -->
+<p>The yen sign: &yen;</p><!-- &#165 -->
+<p>The euro sign: &euro;</p><!-- &#8364-->
+<p>The copyright sign: &copy;</p><!-- &#169 -->
+<p>The registered trademark sign: &reg;</p><!-- &# --
+</body>
+</html>
+

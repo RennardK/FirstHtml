@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drawing a canvas</title>
+  </head>
+<body>
+ <canvas id="mycanvas" style="border:20px solid blue" width=200 height=100></canvas><br><br>
+ <script>
+ 
+   let canvas = document.getElementById("mycanvas");
+   let ctx = canvas.getContext("2d");
+   ctx.fillStyle = "#FF0000";
+   ctx.fillRect(50,35,100,30)
+   
+    //var.fillRect(x,y,width,height)
+   /* fillStyle can be a CSS color, gradient, or pattern. Default fillStyle is black. */
+ </script>
+
+</body>
+</html>
+

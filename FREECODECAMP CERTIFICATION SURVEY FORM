@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+  <title>Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</html>
+<body>
+  <h1 id="title">Sports Survey Form</h1>
+  <p id="description">Thank you for finding time to fill this form.</p>
+  <div class="allinputelements">
+    <form id="survey-form" action="https://register-demo.freecodecamp.org" target="_blank">
+      <fieldset class="name">
+        <label>First Name <input required type="text" name="Firstname" id="name"></label>
+        <label>Last Name <input required type="text" name="lastname" id="name"></label>
+        <label>Country of Residence <input type="text" name="country of residence"></label>
+      </fieldset>
+      <fieldset>
+      <div class="email">
+        <label>Email <input required type="email" name="email" id="email" pattern="[a-zA-Z0-9/S]"></label>
+      </div>
+      <div class="phone-number">
+        <label>Phone Number <input type="number" name="phoneNumber" pattern="[0-9]{8,}"  id="number" min="10" max="13" pattern=""></label>
+      </div>
+      <div class="checkbox">
+        <input id="football" type="checkbox">
+         <label for="football">Football</label>
+        <input id="basketball" type="checkbox">
+         <label for="basketball">Basketball</label>
+        <input id="Ice Hockey" type="checkbox">
+         <label for="Ice Hockey">Ice Hockey</label>
+        <input id="Rugby" type="checkbox">
+         <label for="Rugby">Rugby</label>
+        <input id="Cricket" type="checkbox">
+         <label for="Cricket">Cricket</label>
+        <input id="Formula 1" type="checkbox">
+         <label for="Formula 1">Formula 1</label>
+        <input id="Tennis" type="checkbox">
+         <label for="Tennis">Tennis</label>
+        <input id="Golf" type="checkbox">
+         <label for="Golf">Tennis</label>
+      </div>
+      <div class="dropdown">
+        <label>Choose your Top Sport league: 
+          <select>
+            <option>FIFA World Cup</option>
+            <option>The Masters</option>
+            <option>Wimbledon</option>
+            <option>HSBC</option>
+            <option>NBA</option>
+            <option>Cricket World Cup</option>
+            <option>IceHockey World Championships</option>
+            <option>BundesLiga</option>
+          </select>
+        </label>
+      </div>
+      </fieldset>
+      <fieldset>
+        <legend>Which sport do you have its most attire</legend>
+      <div class="radio">
+        <label><input type="radio" name="Most_Prepared_for">Golf</label>
+        <label><input type="radio" name="Most_Prepared_for">Formula 1</label>
+        <label><input type="radio" name="Most_Prepared_for">Football</label>
+        <label><input type="radio" name="Most_Prepared_for">Ice Hockey</label>
+        <label><input type="radio" name="Most_Prepared_for">Basketball</label>
+        <label><input type="radio" name="Most_Prepared_for">Cricket</label>
+        <label><input type="radio" name="Most_Prepared_for">Tennis</label>
+        <label><input type="radio" name="Most_Prepared_for">Rugby</label>
+      </div>
+      </fieldset>
+      <div class="textarea">
+        <label>What should be done to make more being sport-oriented? <input type="text" name="recommendations"></label>
+      </div>
+      </div>
+      <input type="submit" id="submit" value="Submit Form">
+    </form>
+  </div>
+</body>

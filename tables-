@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="table">HTML TABLES</h1>
+      <p>In html5 tables are created using the table tag.</p>
+      <p>An example includes:</p>
+      <table style="width: 75%;">
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Rennard</td>
+          <td>Weru</td>
+          <td>76</td>
+        </tr>
+        <tr>
+          <td>Joshua</td>
+          <td>Mboya</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>Bethuel</td>
+          <td>Kiiru</td>
+          <td>40</td>
+        </tr>
+      </table>
+  </body>
+</html>

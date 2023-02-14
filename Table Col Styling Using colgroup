@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="table">HTML TABLES</h1>
+      <p>In html5 tables are created using the table tag.</p>
+      <p>An example includes:</p>
+      <table style="width: 100%;">
+        <colgroup>
+          <col span="1" style="background-color: #CBEDD5">
+          <col span="1">
+          <col span="1" style="background-color: #CBEDD5">
+          <col span="1">
+          <col span="1" style="background-color: #CBEDD5">
+          <col span="1">
+          <col span="1" style="background-color: #CBEDD5">
+        </colgroup>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Points</th>
+          <th>Amount Won</th>
+          <th>Year Won</th>
+          <th>Max Mass</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Peter</td>
+          <td>Griffin</td>
+          <td>$100</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Lois</td>
+          <td>Griffin</td>
+          <td>$150</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Joe</td>
+          <td>Swanson</td>
+          <td>$300</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Cleveland</td>
+          <td>Brown</td>
+          <td>$250</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+    </table>
+  </body>
+</html>

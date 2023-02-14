@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>HTML ORDERED LISTS</title>
+    <link rel="stylesheet" href="styles.csss">
+  </head>
+  <body>
+    <h1>HTML ORDERED LISTS</h1>
+    <div>
+      HTML5 ordered lists are used to create an organized list of items:
+      The default type attribute for an ordered list is number.
+      <ol>
+        <li>Nairobi University</li>
+        <li>Machakos University</li>
+        <li>Kenyatta University</li>
+        <li>Kibabii University</li>
+      </ol>
+      <p>However, you can still specify the type as number.<br>An Ordered list type: number</p>
+      <ol type="1">
+        <li>Nairobi University</li>
+        <li>Machakos University</li>
+        <li>Kenyatta University</li>
+        <li>Kibabii University</li>
+      </ol
+      <p>An Ordered list type: roman lowercase</p>
+      <ol type="i">
+        <li>Nairobi University</li>
+        <li>Machakos University</li>
+        <li>Kenyatta University</li>
+        <li>Kibabii University</li>
+      </ol
+      <p>An Ordered list type: roman uppercase</p>
+      <ol type="I">
+        <li>Nairobi University</li>
+        <li>Machakos University</li>
+        <li>Kenyatta University</li>
+        <li>Kibabii University</li>
+      </ol>
+      <p>An Ordered list type: letters lowercase</p>
+      <ol type="a">
+        <li>Nairobi University</li>
+        <li>Machakos University</li>
+        <li>Kenyatta University</li>
+        <li>Kibabii University</li>
+      </ol>
+      <p>An Ordered list type: letters uppercase</p>
+      <ol type="A">
+        <li>Nairobi University</li>
+        <li>Machakos University</li>
+        <li>Kenyatta University</li>
+        <li>Kibabii University</li>
+      </ol>
+      <hr>
+      <p>We also have a controlled ordered list: These are lists that have a specified starting point.</p>
+      <ol type="1" start="4">
+        <li>Nairobi University</li>
+        <li>Machakos University</li>
+        <li>Kenyatta University</li>
+        <li>Kibabii University</li>
+      </ol>
+      <p>HTML nested list:</p>
+      <ol type="1" start="1">
+        <li>
+          Nairobi University:
+          <ol type="i">
+            <li>School of Medicine</li>
+            <li>School of Art</li>
+            <li>School of Education</li>
+          </ol>
+        </li>
+        <li>
+          Machakos University
+          <ol type="a">
+            <li>School of Medicine</li>
+            <li>School of Art</li>
+            <li>School of Education</li>
+          </ol>
+        </li>
+        <li>
+          Kenyatta University
+          <ol type="I">
+            <li>School of Medicine</li>
+            <li>School of Art</li>
+            <li>School of Education</li>
+          </ol>
+        </li>
+        <li>
+          Kibabii University
+          <ul list-style-type="disc">
+            <li>School of Medicine</li>
+            <li>School of Art</li>
+            <li>School of Education</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </body>
+</html>

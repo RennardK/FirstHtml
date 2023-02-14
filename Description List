@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="table">HTML DESCRIPTION LIST</h1>
+      <p>A description list is created using &ltdl&gt&lt&#47dl&gt tag.</p>
+      <p>The description terms are defined using &ltdt&gt&lt&#47dt&gt tag.</p>
+      <p>The description data are defined using &ltdd&gt&lt&#47dd&gt tag.</p>
+      <dl>
+        <dt>Day</dt>
+        <dd>-Monday or Tuesday</dd>
+        <dt>Time</dt>
+        <dd>-Morning, afternoon, or evening</dd>
+        <dt>Hour</dt>
+        <dd>-Top of the Hour/ Mid Hour</dd>
+      </dl>
+  </body>
+</html>

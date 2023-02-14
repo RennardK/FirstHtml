@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="table">HTML UNORDERED LISTS</h1>
+      <p>In html5 Unordered lists are created using the &ltul&gt&lt&#47ul&gt tag.</p>
+      <p>Unordered Lists can be styled using list-style-type property which takes values such as circle, disc, square, and none.</p>
+      <p>An example of an Unordered list-style-type: none</p>
+      <ul style="list-style-type: none;">
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+      </ul>
+      <p>An example of an Unordered list-style-type: disc</p>
+      <ul style="list-style-type: disc;">
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+      </ul>
+      <p>An example of an Unordered list-style-type: circle</p>
+      <ul style="list-style-type: circle;">
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+      </ul>
+      <p>An example of an Unordered list-style-type: square</p>
+      <ul style="list-style-type: square;">
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+      </ul>
+  </body>
+</html>

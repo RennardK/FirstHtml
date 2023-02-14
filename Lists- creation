@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="table">HTML TABLES</h1>
+      <p>In html5 lists are created using the &ltli&gt&lt&#47li&gt tag.</p>
+      <!--<p>An example includes:</p>-->
+      <p>
+        We have two types of list:
+        <ol>
+          <li>Unordered list: created using &ltul&gt&lt&#47ul&gt tag.</li>
+          <li>Ordered list: created using &ltol&gt&lt&#47ol&gt tag.</li>
+        </ol>
+      </p>
+      <p>An example of an Unordered list:</p>
+      <ul>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+      </ul>
+      <p>An example of an Ordered list:</p>
+      <ol>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+      </ol>
+  </body>
+</html>

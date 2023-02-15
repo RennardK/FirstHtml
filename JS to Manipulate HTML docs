@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Script Tag</title>
+    <!--<link rel="stylesheet" href="styles.css">-->
+  </head>
+  <body>
+    <h2>The html script tag</h2>
+    <p>We use the script tag to create a JavaScript code inside the html document.</p>
+    <p>Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.</p>
+    <button onclick="myFunc()">Click to display text</button>
+    <button onclick="myFunc1()">Click to change fontsize</button>
+    <button onclick="myFunc2()">Click to change color</button>
+    <button onclick="myFunc3()">Click to remove text</button>
+    <p id="motor"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- styles.css
+body {
+  background-image: linear-gradient(to right top, #5467bb, #007bc2, #008abc, #0096ad, #259f9c, #2ea1a1, #37a4a6, #3fa6ab, #3ba0c1, #6096cb, #8d88c4, #b179ad);
+}
+button {
+  display: block;
+}
+-->
+
+<!-- script.js
+function myFunc()
+  {
+        document.getElementById("motor").innerHTML="This is my JavaScript script."
+  }
+  
+function myFunc1()
+  {
+        document.getElementById("motor").style.fontSize="25px";
+  }
+function myFunc2()
+  {
+        document.getElementById("motor").style.color="tomato";
+  }
+function myFunc3()
+  {
+        document.getElementById("motor").style.display="none";
+  }
+-->

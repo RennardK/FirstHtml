@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>The html script tag</h2>
+    <p>We use the script tag to create a JavaScript code inside the html document.</p>
+    <p>Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.</p>
+    <button onclick="myFunc()">Click the button</button>
+    <p id="motor"></p>
+    <script>
+      function myFunc(){
+        document.getElementById("motor").innerHTML="This is my JavaScript script."
+      }
+    </script>
+  </body>
+</html>
+

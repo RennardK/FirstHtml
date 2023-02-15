@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Create a Flex Container</h1>
+
+<div class="flex-container">
+  <div>Home</div>
+  <div>Content</div>
+  <div>About</div>  
+</div>
+<br>
+<div class="flex-container1">
+  <div>Home</div>
+  <div>Content</div>
+  <div>About</div>  
+</div>
+
+<p>A Flexible Layout must have a parent element with the <em>display</em> property set to <em>flex</em>.</p>
+
+<p>Direct child elements(s) of the flexible container automatically becomes flexible items.</p>
+
+</body>
+</html>
+
+
+<!-- The CSS Styling property
+<!--.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #fafbfc;
+  margin: 10px 0 10px 10px ;
+  padding: 10px;
+  font-size: 30px;
+}
+.flex-container > div:hover{
+  background-color: DodgerBlue;
+}
+
+.flex-container1 {
+  display: flex;
+  background-color: DodgerBlue;
+}
+.flex-container1 > div {
+  background-color: #fafbfc;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+}
+.flex-container1 > div:hover{
+  background-color: DodgerBlue;
+}
+-->

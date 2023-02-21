@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocation API</title>
+</head>
+<body>
+    <h1>Geolocation API</h1>
+    <h2>Tracking the position of a device using the Geolocation API</h2>
+    <p>The Geolocation API allows us to track the location of a device using the navigator.geolocation API JS code</p>
+    
+    <button onclick="traceLoc()">This is my location: Click to display:</button>
+    <p id="loc"></p>
+    <script>
+        var x = document.getElementById("loc");
+
+        function traceLoc(){
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            }
+            else{
+                x.innerHTML = "This device doesn't support the location API";
+            }
+        }
+
+        function showPosition(position){
+            x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude
+        }
+    </script>
+</body>
+</html>
+

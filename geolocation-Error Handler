@@ -1,0 +1,31 @@
+let elem = document.getElementById("loc");
+
+function getPosition(){
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError)
+    }
+    else {
+        elem.innerHTML = "The browser doesn't support Geolocation!"
+        }
+}
+
+function showPosition(pos){
+    elem.innerHTML = "Latitude: " + pos.coords.latitude + "<br>" + "Longitude: " + pos.coords.longitude + "<br>" + "Accuracy: " + pos.coords.accuracy + "<br>" + "Altitude: " + pos.coords.altitude + "<br>" + "speed: " + pos.coords.speed + "<br>" + "timestamp: " + pos.coords.timestamp;
+}
+
+function showError(error){
+    switch (error.code) {
+        case error.PERMISSION_DENIED:
+            elem.innerHTML = "Permission to access location DENIED!"
+            break;
+        case error.POSITION_UNAVAILABLE:
+            elem.innerHTML = "Location UNAVAILABle!"
+            break;
+        case error.UNKNOWN_ERROR:
+            elem.innerHTML = "UNKNOWN ERROR occured"
+            break;
+        case error.TIMEOUT:
+            elem.innerHTML = "Permission to user's location timed out!"
+            break;
+    }
+}
